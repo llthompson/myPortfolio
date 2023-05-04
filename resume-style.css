@@ -1,0 +1,61 @@
+body {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 20% 10% 25% 45%;
+    width: 75%;
+    /* Add some dimension and color for us to see it better */
+    height: 800pt;
+    border: solid red 1pt;
+    margin: 10pt;
+}
+
+.full-name {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: solid black 2pt;
+    margin: 10pt 5pt;
+    padding: 10pt 10pt;
+    justify-content: center;
+}
+
+.head-shot {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: solid black 2pt;
+    margin: 10pt 5pt;
+    padding: 2pt 5pt;
+}
+
+.job-title {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: solid black 2pt;
+    margin: 10pt 5pt;
+    padding: 2pt 5pt;
+}
+
+.intro {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: solid black 2pt;
+    margin: 10pt 5pt;
+    padding: 2pt 5pt;
+}
+
+.contact-info {
+    grid-column: 1/1;
+    grid-row: 3/5;
+    border: solid black 2pt;
+    margin: 10pt 5pt;
+    padding: 2pt 5pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-content {
+    grid-column: 2/2;
+    grid-row: 3/5;
+    border: solid black 2pt;
+    margin: 10pt 5pt;
+    padding: 2pt 5pt;
+}
