@@ -6,7 +6,7 @@ body {
     height: 800pt;
     /* border: solid red 1pt; */
     margin: 10pt;
-    color: #22406b;
+    color: #002147;
 }
 
 .full-name {
@@ -107,7 +107,7 @@ img {
     align-items: center;
     font-family: 'Assistant', sans-serif;
     font-size: 14px;
-    color: #BB133E;
+    /* color: #BB133E; */
     /*WHY WON'T IT CHANGE COLOR OH BECAUSE IT'S TIED TO THE SAME AS COMPANY/SCHOOL*/
     text-transform: none;
 }
@@ -131,7 +131,6 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     color: #BB133E;
-
 }
 
 div>h4 {
@@ -148,10 +147,14 @@ div>p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    color: #BB133E;
+    /* color: #BB133E; */
 }
 
 i {
     font-size: 20px;
     padding-top: 50px;
+}
+
+.organization {
+    color: #BB133E;
 }
