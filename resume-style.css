@@ -12,11 +12,20 @@ body {
 .full-name {
     grid-column: 2/3;
     grid-row: 1/2;
-    border: solid black 2pt;
+    border-bottom: solid black 2pt;
     margin: 10pt 5pt;
     padding: 10pt 10pt;
-    justify-content: center;
+    /* justify-content: center; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 54px;
 }
+
+.full-name>h1 {
+    max-width: 400px;
+}
+
 
 .head-shot {
     grid-column: 1/2;
@@ -24,6 +33,15 @@ body {
     border: solid black 2pt;
     margin: 10pt 5pt;
     padding: 2pt 5pt;
+    /* width: 271.88px;
+    height: 213.33px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-shot>img {
+    max-height: 150px;
 }
 
 .job-title {
@@ -32,6 +50,7 @@ body {
     border: solid black 2pt;
     margin: 10pt 5pt;
     padding: 2pt 5pt;
+
 }
 
 .intro {
@@ -40,6 +59,9 @@ body {
     border: solid black 2pt;
     margin: 10pt 5pt;
     padding: 2pt 5pt;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 .contact-info {
@@ -50,6 +72,17 @@ body {
     padding: 2pt 5pt;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+.contact-info>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
 }
 
 .resume-content {
@@ -58,4 +91,15 @@ body {
     border: solid black 2pt;
     margin: 10pt 5pt;
     padding: 2pt 5pt;
+}
+
+h3 {
+    border-bottom: solid rgba(0, 0, 0, .5) 2pt;
+    padding-bottom: 15px;
+
+}
+
+div>h4,
+div>p {
+    line-height: 0;
 }
