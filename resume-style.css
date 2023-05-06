@@ -3,23 +3,25 @@ body {
     grid-template-columns: 25% 75%;
     grid-template-rows: 20% 10% 25% 45%;
     width: 75%;
-    /* Add some dimension and color for us to see it better */
     height: 800pt;
-    border: solid red 1pt;
+    /* border: solid red 1pt; */
     margin: 10pt;
+    color: #22406b;
 }
 
 .full-name {
     grid-column: 2/3;
     grid-row: 1/2;
-    border-bottom: solid black 2pt;
+    border-bottom: solid #00000080 2pt;
     margin: 10pt 5pt;
     padding: 10pt 10pt;
-    /* justify-content: center; */
     display: flex;
     justify-content: start;
     align-items: center;
-    font-size: 54px;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    color: #BB133E;
 }
 
 .full-name>h1 {
@@ -30,14 +32,18 @@ body {
 .head-shot {
     grid-column: 1/2;
     grid-row: 1/2;
-    border: solid black 2pt;
     margin: 10pt 5pt;
     padding: 2pt 5pt;
-    /* width: 271.88px;
-    height: 213.33px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #002147;
+    border-radius: 4pt;
+}
+
+img {
+    border: solid #ffffff 2pt;
+    border-radius: 4pt;
 }
 
 .head-shot>img {
@@ -47,27 +53,38 @@ body {
 .job-title {
     grid-column: 1/2;
     grid-row: 2/3;
-    border: solid black 2pt;
+    /* border: solid black 2pt; */
     margin: 10pt 5pt;
     padding: 2pt 5pt;
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #002147;
+    border-radius: 4pt;
 }
 
 .intro {
     grid-column: 2/3;
     grid-row: 2/3;
-    border: solid black 2pt;
+    /* border: solid black 2pt; */
     margin: 10pt 5pt;
-    padding: 2pt 5pt;
+    padding: 1pt 0pt 1pt 5pt;
     display: flex;
     justify-content: start;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 .contact-info {
     grid-column: 1/1;
     grid-row: 3/5;
-    border: solid black 2pt;
+    /* border: solid black 2pt; */
     margin: 10pt 5pt;
     padding: 2pt 5pt;
     display: flex;
@@ -75,31 +92,66 @@ body {
     align-items: center;
     justify-content: flex-start;
     padding-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #002147;
+    border-radius: 4pt;
 }
 
 .contact-info>div {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    gap: 15px;
     align-items: center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+    color: #BB133E;
+    /*WHY WON'T IT CHANGE COLOR OH BECAUSE IT'S TIED TO THE SAME AS COMPANY/SCHOOL*/
+    text-transform: none;
 }
 
 .resume-content {
     grid-column: 2/2;
     grid-row: 3/5;
-    border: solid black 2pt;
+    /* border: solid black 2pt; */
     margin: 10pt 5pt;
     padding: 2pt 5pt;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 h3 {
-    border-bottom: solid rgba(0, 0, 0, .5) 2pt;
+    border-bottom: solid #00000080 2pt;
     padding-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #BB133E;
 
 }
 
-div>h4,
+div>h4 {
+    line-height: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #BB133E;
+}
+
 div>p {
     line-height: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #BB133E;
+}
+
+i {
+    font-size: 20px;
+    padding-top: 50px;
 }
