@@ -2,19 +2,22 @@ body {
     display: grid;
     grid-template-columns: 25% 75%;
     grid-template-rows: 20% 10% 25% 45%;
-    width: 75%;
-    height: 800pt;
-    /* border: solid red 1pt; */
-    margin: 10pt;
+    height: 1056px;
+    width: 816px;
+    margin: 10px;
     color: #002147;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .full-name {
     grid-column: 2/3;
     grid-row: 1/2;
     border-bottom: solid #00000080 2pt;
-    margin: 10pt 5pt;
-    padding: 10pt 10pt;
+    margin: 5px 5px;
+    padding: 1px 0px 1px 5px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -32,18 +35,18 @@ body {
 .head-shot {
     grid-column: 1/2;
     grid-row: 1/2;
-    margin: 10pt 5pt;
-    padding: 2pt 5pt;
+    margin: 5px 5px;
+    padding: 1px 0px 1px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #002147;
-    border-radius: 4pt;
+    border-radius: 4px;
 }
 
 img {
-    border: solid #ffffff 2pt;
-    border-radius: 4pt;
+    border: solid #ffffff 2px;
+    border-radius: 4px;
 }
 
 .head-shot>img {
@@ -53,9 +56,8 @@ img {
 .job-title {
     grid-column: 1/2;
     grid-row: 2/3;
-    /* border: solid black 2pt; */
-    margin: 10pt 5pt;
-    padding: 2pt 5pt;
+    margin: 5px 5px;
+    padding: 1px 0px 1px 5px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -71,9 +73,8 @@ img {
 .intro {
     grid-column: 2/3;
     grid-row: 2/3;
-    /* border: solid black 2pt; */
-    margin: 10pt 5pt;
-    padding: 1pt 0pt 1pt 5pt;
+    margin: 5px 5px;
+    padding: 1px 0px 1px 5px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -84,9 +85,8 @@ img {
 .contact-info {
     grid-column: 1/1;
     grid-row: 3/5;
-    /* border: solid black 2pt; */
-    margin: 10pt 5pt;
-    padding: 2pt 5pt;
+    margin: 5px 5px;
+    padding: 1px 0px 1px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,17 +107,14 @@ img {
     align-items: center;
     font-family: 'Assistant', sans-serif;
     font-size: 14px;
-    /* color: #BB133E; */
-    /*WHY WON'T IT CHANGE COLOR OH BECAUSE IT'S TIED TO THE SAME AS COMPANY/SCHOOL*/
     text-transform: none;
 }
 
 .resume-content {
     grid-column: 2/2;
     grid-row: 3/5;
-    /* border: solid black 2pt; */
-    margin: 10pt 5pt;
-    padding: 2pt 5pt;
+    margin: 5px 5px;
+    padding: 1px 0px 1px 5px;
     font-family: 'Assistant', sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -125,7 +122,7 @@ img {
 
 h3 {
     border-bottom: solid #00000080 2pt;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -147,12 +144,15 @@ div>p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    /* color: #BB133E; */
+}
+
+.fixing {
+    font-size: 12px;
 }
 
 i {
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .organization {
