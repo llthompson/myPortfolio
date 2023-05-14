@@ -1,0 +1,155 @@
+body {
+    background-color: #e9e3e3;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #00000033;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+    color: #767676;
+}
+
+input[type="date"],
+input[type="email"],
+input[type="color"],
+textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    color: #767676;
+}
+
+.boxy>label {
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: #FFFFFF;
+    height: 18px;
+    padding: 2px 5px 2px 5px;
+    color: #646464;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+
+.boxy {
+    display: block;
+    padding: 9px;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.options {
+    display: block;
+    padding: 9px;
+    /* margin-bottom: 30px; */
+    border-radius: 3px;
+    color: #767676;
+}
+
+/* General styles
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 75px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0000001a;
+    padding: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    color: #111111;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    background-color: #333;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #555;
+}
+
+#comments {
+    height: 100px;
+}
+
+#color {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+}
+
+.options {
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+}
+
+*/
