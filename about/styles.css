@@ -30,9 +30,6 @@ img {
     max-width: 200px;
     max-height: 200px;
     display: block;
-    background-color: #ddd;
-    background-image: url('./myProfilePic.jpg');
-    background-size: cover;
     border-radius: 50%;
     margin: 20px auto;
     border-style: solid;
