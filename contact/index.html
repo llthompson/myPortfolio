@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Lisa's Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&family=Montserrat:wght@100;300;400;500;600;700&family=Mulish:wght@300;400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&family=Raleway:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+  <title>Contact Lisa</title>
 </head>
 
 <body>
@@ -16,39 +19,43 @@
 
     <div class="boxy">
       <label for="email">Email</label>
-      <input type="email" name="email" id="email">
+      <input type="email" name="email" id="email" required>
     </div>
 
     <div class="boxy">
       <label for="hear">How did you hear about me?</label>
       <div class="options">
+        
         <div>
-          <label for="classmate">Classmate</label>
-          <input type="checkbox" name="classmate" id="classmate">
-        </div>
-        <div>
-          <label for="resume">Resume Submission</label>
           <input type="checkbox" name="resume" id="resume">
+          <label for="resume">Resume Submission</label>
         </div>
         <div>
-          <label for="linkedin">LinkedIn</label>
           <input type="checkbox" name="linkedin" id="linkedin">
+          <label for="linkedin">LinkedIn</label>
+
         </div>
         <div>
-          <label for="aca">ACA Recommendation</label>
           <input type="checkbox" name="aca" id="aca">
+          <label for="aca">ACA Recommendation</label>
+
+        </div>
+        <div>
+          <input type="checkbox" name="other" id="other">
+          <label for="other">Other</label>
+
         </div>
       </div>
     </div>
 
     <div class="boxy">
       <label for="comments">Comments</label>
-      <textarea id="comments" name="comments"></textarea>
+      <textarea id="comments" name="comments" placeholder="comments" minlength="20" maxlength="500"></textarea>
     </div>
 
     <div class="boxy">
-      <label for="date">Birthdate</label>
-      <input type="date" name="date" id="date" min="2019-06-10">
+      <label for="date">Optional Birthday Wishes</label>
+      <input type="date" name="date" id="date" min="1900-01-01">
     </div>
 
 
@@ -56,12 +63,14 @@
       <label for="spammy">Would you like me to contact you?</label>
       <div class="options">
         <div>
-          <label for="yes">Yes</label>
           <input type="radio" name="callback" id="yes" value="yes">
+          <label for="yes">Yes</label>
+
         </div>
         <div>
-          <label for="no">No</label>
           <input type="radio" name="callback" id="no" value="no">
+          <label for="no">No</label>
+
         </div>
       </div>
     </div>
@@ -71,7 +80,6 @@
       <input type="color" name="color" id="color">
     </div>
 
-    <button type="reset">Reset</button>
     <button type="submit">Submit</button>
   </form>
   <script src="scripts.js"></script>
