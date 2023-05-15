@@ -1,6 +1,9 @@
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #fff7f4;
+    background-color: #e9e3e3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #646464;
 }
 
 header {
@@ -11,14 +14,16 @@ header {
     text-align: center;
     box-shadow: 0px 0px 20px #00000033;
     padding: 20px;
+    border-radius: 6px;
 }
 
 main {
     max-width: 800px;
     margin: 10px auto;
     padding: 20px;
-    background-color: #fffdf6;
+    background-color: #ffffff;
     box-shadow: 0px 0px 10px #00000033;
+    border-radius: 6px;
 }
 
 img {
@@ -36,16 +41,17 @@ img {
     box-shadow: 0px 0px 50px #00000033;
 }
 
-h1,
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
 }
 
 h2 {
     margin-top: 0;
     color: #e394a2;
-    font-size: 32px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 p {
@@ -68,7 +74,7 @@ a:hover {
 .row {
     margin-top: 0%;
     margin-bottom: 0%;
-    background-color: #b3b3b3;
+    background-color: #d7d7d7;
     padding-top: 4%;
     padding-bottom: 2%;
     height: 100px;
@@ -77,24 +83,26 @@ a:hover {
 .contact-info {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px #00000033;
 }
 
 div>h2 {
-    color: #000000;
+    color: #646464;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
 div>p {
-    color: #000000;
+    color: #646464;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    margin-left: 25px;
-    margin-right: 25px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -107,17 +115,18 @@ div>p {
     }
 }
 
-@media (max-width: 700px) {
 
-    h2,
-    p {
-        color: #000000;
+@media (max-width: 700px) {
+    .row {
+        height: auto;
     }
 }
 
 @media (max-width: 700px) {
-    .row {
-        background-color: #ffffff;
-        height: auto;
+    p {
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
     }
 }

@@ -1,15 +1,14 @@
 body {
     background-color: #e9e3e3;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 14px;
-
+    color: #646464;
 }
 
 form {
     background-color: #ffffff;
-    max-width: 600px;
+    max-width: 800px;
     margin: 50px auto;
     padding: 30px;
     border-radius: 10px;
@@ -23,11 +22,11 @@ h1 {
     margin: 0px 0px 20px 0px;
     color: #b50965;
     font-family: 'Pacifico', cursive;
+    font-size: 36px;
 }
 
 input[type="date"],
 input[type="email"],
-input[type="color"],
 textarea {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -44,6 +43,7 @@ textarea {
     font-weight: 300;
     font-size: 14px;
 }
+
 
 .boxy>label {
     display: block;
@@ -82,4 +82,20 @@ button {
     border-radius: 3px;
     border-color: #767676;
     padding: 6px 6px 6px 6px;
+}
+
+
+input[type="color"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 30%;
+    display: block;
+    outline: none;
+    border-radius: 3px;
+    border-color: #767676;
+    height: 25px;
+    padding: 1px 1px 1px 1px;
+    margin: 20px 20px 10px 20px;
+   
 }
