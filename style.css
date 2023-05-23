@@ -9,12 +9,6 @@ body {
     color: #646464;
 }
 
-.logo {
-    width: 150px;
-    height: 100px;
-    margin: 3% 10%;
-}
-
 header {
     display: block;
 }
@@ -35,7 +29,7 @@ nav>a {
     box-shadow: 0px 0px 10px #00000033;
     border-radius: 25px;
     border: 2px solid #646464;
-    padding-top: 1.75%;
+    padding: 1%
 }
 
 nav {
@@ -72,6 +66,7 @@ h2 {
     grid-column: 2/3;
     margin: 3% auto;
     font-weight: 700;
+    text-align: center;
 }
 
 .small-text {
@@ -85,11 +80,9 @@ button {
     grid-column: 2/3;
     margin: 3% auto;
     width: 70%;
-    height: 15%;
+    padding: 3%;
     border-color: #646464;
     background: transparent;
-    /* padding: 20px; */
-    padding-bottom: 8%;
     text-align: center;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
@@ -115,10 +108,14 @@ button {
 
     nav>a {
         width: 50%;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 
+    #profile-pic, h1, h2, button {
+        grid-column: 1/4;
+    }
 
+   
     
 }
 
