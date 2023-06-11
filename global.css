@@ -12,7 +12,7 @@ header {
     margin: auto;
     color: white;
     text-align: center;
-    box-shadow: 0px 0px 20px #00000033;
+    box-shadow: 10px 10px 20px #00000033;
     padding: 20px;
     border-radius: 6px;
 }
@@ -35,12 +35,12 @@ nav {
         flex-direction: column;
     }
 
-    a {
+    .btn {
         margin-top: 5px;
     }
 }
 
-a {
+.btn {
     color: #b50965;
     font-weight: 500;
     border-style: none;
@@ -55,7 +55,7 @@ a {
     text-shadow: 1px 1px 1px #00000033;
 }
 
-a:hover {
+.btn:hover {
     text-decoration: underline;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
@@ -65,16 +65,49 @@ a:visited {
     /* background-color: aqua; */
 }
 
-i {
-    font-size: 24px;
+#logo {
+    color: white;
+    font-size: 36px;
     text-shadow: 3px 5px 1px #00000033;
+}
+
+.tooltip {
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-shadow: 1px 3px 1px #00000033;
+}
+
+/* #logo:hover {
+    position: absolute;
+    font-size: 38px;
+    top: 25px;
+    left: 45px;
+} */
+
+#logo:hover {
+
+    .tooltip {
+        display: inline-block;
+        position: absolute;
+        /* background-color: #e9e3e3; */
+        border-radius: 10px;
+        top: 36.5px;
+        left: 68px;
+        padding: .5em;
+        /* z-index: 2; */
+    }
+
 }
 
 h1 {
     font-family: 'Pacifico', cursive;
+    color: white;
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 0;
     text-shadow: 3px 5px 1px #00000033;
     letter-spacing: 3px;
+    text-decoration: none;
 }
