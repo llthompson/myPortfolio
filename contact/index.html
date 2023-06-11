@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&family=Montserrat:wght@100;300;400;500;600;700&family=Mulish:wght@300;400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;300;400;500;600&display=swap" rel="stylesheet">
- 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&family=Montserrat:wght@100;300;400;500;600;700&family=Mulish:wght@300;400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="../global.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Contact Lisa</title>
 
@@ -16,9 +19,26 @@
 
 <body>
 
+  <header> <!--HTML for the Header-->
+
+    <nav>
+      <a href="../index.html"><i id="logo" class="fa-solid fa-heart"><span class="tooltip">Home</span></i></a>
+      <h1>Contact Me</h1>
+      <div class="nav-items">
+
+
+        <a href="about/index.html" class="btn">My Story</a>
+        <a href="portfolio-index.html" class="btn">My Work</a>
+        <a href="resume/index.html" class="btn">My Resume</a>
+        <a href="contact/index.html" class="btn">My Info</a>
+      </div>
+
+    </nav>
+  </header> <!--End HTML for the Header-->
+
   <form action="results.html" method="GET" enctype="multipart/form-data">
 
-    <h1>Contact Me</h1>
+    <h2>Contact Form</h2>
 
     <div class="boxy">
       <label for="email">Email</label>
@@ -28,7 +48,7 @@
     <div class="boxy">
       <label for="hear">How did you hear about me?</label>
       <div class="options">
-        
+
         <div>
           <input type="checkbox" name="resume" id="resume">
           <label for="resume">Resume Submission</label>
@@ -85,7 +105,11 @@
 
     <button type="submit">Submit</button>
   </form>
+
+
   <script src="scripts.js"></script>
+  <script src="https://kit.fontawesome.com/c0296476ad.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
