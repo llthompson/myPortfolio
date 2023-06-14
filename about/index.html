@@ -19,24 +19,28 @@
 
 <body>
 
-
-    <header> <!--HTML for the Header-->
-
-        <nav>
+    <!--HTML for the Header-->
+    <header>
+        <nav class="original-nav">
             <a href="../index.html"><i id="logo" class="fa-solid fa-heart"><span class="tooltip">Home</span></i></a>
             <h1>My Story</h1>
-            <div class="nav-items">
-
-
-                <a href="index.html" class="btn">My Story</a>
-                <a href="../portfolio-index.html" class="btn">My Work</a>
-                <a href="../resume/index.html" class="btn">My Resume</a>
-                <a href="../contact/index.html" class="btn">My Info</a>
-            </div>
-
+            <nav role="navigation">
+                <div class="nav-items" id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
         </nav>
-    </header> <!--End HTML for the Header-->
-
+        <ul id="menu">
+            <a href="../about/index.html" class="btn">My Story</a>
+            <a href="../portfolio-index.html" class="btn">My Work</a>
+            <a href="../resume/index.html" class="btn">My Resume</a>
+            <a href="../contact/index.html" class="btn">My Info</a>
+        </ul>
+    </header>
+    <!--End HTML for the Header-->
 
     <main>
 
@@ -92,8 +96,9 @@
         </section>
 
     </main>
-</body>
 
-<script src="https://kit.fontawesome.com/c0296476ad.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c0296476ad.js" crossorigin="anonymous"></script>
+    <script src="../nav.js"></script>
+</body>
 
 </html>

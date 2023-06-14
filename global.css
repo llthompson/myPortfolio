@@ -47,6 +47,7 @@ nav {
 
 .btn {
     color: #b50965;
+    font-size: 18px;
     font-weight: 500;
     border-style: none;
     border-radius: 5px;
@@ -178,9 +179,9 @@ a:visited {
     background: #b50965;
 }
 
-#menuToggle:checked + #menu {
+#menuToggle:checked+#menu {
     display: flex;
-  }
+}
 
 h1 {
     font-family: 'Pacifico', cursive;
