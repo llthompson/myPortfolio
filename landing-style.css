@@ -3,13 +3,62 @@
     height: 300px;
     display: block;
     border-radius: 50%;
-    margin: 20px auto;
+    margin: 20px;
     border-style: solid;
     border-width: 3px;
     border-color: #e394a2;
-    box-shadow: 0px 0px 50px #00000033;
     grid-column: 2/3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+
 }
+
+.intro {
+    display: flex;
+align-items: center;
+}
+
+h2 {
+    width: 90%;
+    text-align: center;
+    z-index: 1;
+}
+
+.animate-charcter
+{
+   /* text-transform: uppercase; */
+  background-image: linear-gradient(
+    -225deg,
+    #e394a2 0%,
+    #b50965 29%,
+    #e394a2 67%,
+    #646464 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+      font-size: 90px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* .tagline {
+    display: flex;
+    align-items: flex-end;
+} */
+
 
 /* h2, h3 {
     font-family: 'Poppins', sans-serif;
