@@ -4,7 +4,7 @@ h2 {
 
 
 
-ul {
+.project-list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -41,6 +41,6 @@ p {
     text-align: center;
 }
 
-p > a {
+p>a {
     font-size: 18px;
 }
