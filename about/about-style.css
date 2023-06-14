@@ -68,7 +68,10 @@ select {
     font-size: 16px;
     border: 1px solid #d7d7d7;
     border-radius: 4px;
-    max-width: 90%;
+    width: 96%;
+    margin: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .sidebar > p {
