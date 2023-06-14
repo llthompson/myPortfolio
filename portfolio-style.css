@@ -4,7 +4,7 @@ h2 {
 
 
 
-.project-list {
+.project-links {
     list-style-type: none;
     display: flex;
     flex-direction: row;
