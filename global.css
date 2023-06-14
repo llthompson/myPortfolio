@@ -190,6 +190,10 @@ main {
     border-radius: 6px;
 }
 
+ul {
+    padding-inline-start: 0;
+}
+
 
 @media (max-width: 580px) {
     nav {

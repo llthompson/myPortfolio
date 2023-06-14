@@ -56,12 +56,12 @@ p {
 }
 
 .sidebar>h2,
-ul {
+.the-lists {
     color: white;
     font-weight: 300;
 }
 
-ul {
+.the-lists {
     list-style-type: none;
     margin-top: 40px;
 }
