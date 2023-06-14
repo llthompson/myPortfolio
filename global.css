@@ -22,27 +22,19 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+
+}
+
+ul {
+    padding-inline-start: 0;
+
 }
 
 #menu {
     display: none;
     margin-bottom: 0;
-}
-
-@media (max-width: 680px) {
-    nav {
-        flex-direction: column-reverse;
-        align-items: stretch;
-    }
-
-    #menu {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* .btn {
-        margin-top: 5px;
-    } */
+    flex-direction: row;
+    justify-content: center;
 }
 
 .btn {
@@ -63,8 +55,6 @@ nav {
 
 .btn:hover {
     text-decoration: underline;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
 }
 
 a:visited {
@@ -109,12 +99,11 @@ a:visited {
 
 #menuToggle {
     display: block;
-    position: fixed;
-    top: 50px;
-    right: 50px;
+    position: relative;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
+
 }
 
 #menuToggle a {
@@ -130,8 +119,9 @@ a:visited {
 
 #menuToggle input {
     display: block;
-    width: 40px;
+    width: 36px;
     height: 32px;
+    margin: 0;
     position: absolute;
     top: -7px;
     left: -5px;
@@ -179,9 +169,9 @@ a:visited {
     background: #b50965;
 }
 
-#menuToggle:checked+#menu {
+/* #menuToggle:checked+#menu {
     display: flex;
-}
+} */
 
 h1 {
     font-family: 'Pacifico', cursive;
@@ -201,4 +191,28 @@ main {
     background-color: #ffffff;
     box-shadow: 0px 0px 10px #00000033;
     border-radius: 6px;
+}
+
+
+@media (max-width: 580px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #menuToggle {
+        padding-left: 7px;
+        padding-top: 10px;
+    }
+
+   #menu > a {
+    margin-bottom: 5px;
+    }
+
 }
