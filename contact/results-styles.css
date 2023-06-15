@@ -1,19 +1,9 @@
-body {
-   
-    background-color: #e9e3e3;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-
-}
-
-div {
+#results {
     background-color: #ffffff;
     max-width: 600px;
     margin: 50px auto;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px #00000033;
-    
+
 }
