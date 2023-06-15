@@ -1,7 +1,13 @@
-h2 {
+h2,
+h3 {
     text-align: center;
+    margin: 0 auto;
 }
 
+h3 {
+    font-size: 14px;
+    font-style: italic;
+}
 
 
 .project-links {
@@ -12,7 +18,7 @@ h2 {
     align-items: flex-start;
     padding-inline-start: 0;
     justify-content: center;
-    /* margin: 5% auto; */
+    margin: 5% auto;
 }
 
 li {
@@ -39,8 +45,17 @@ a {
 
 p {
     text-align: center;
+    max-width: 225px;
+    height: 110px;
 }
 
 p>a {
     font-size: 18px;
+}
+
+@media (max-width: 1280px) {
+    .gallery {
+        max-width: 680px;
+        margin: 5% auto;
+    }
 }
