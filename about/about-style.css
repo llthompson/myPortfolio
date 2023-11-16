@@ -1,5 +1,7 @@
 .about-lisa {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 1%;
 }
 
@@ -16,6 +18,8 @@ h3 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 p {
@@ -26,14 +30,16 @@ p {
 }
 
 .storytime {
-    width: 65%;
-    margin-right: 5%;
+    width: 85%;
+    margin: 5% 1%;
+    /* margin-right: 5%; */
+    /* margin-bottom: 40px; */
 }
 
 .sidebar {
     border-radius: 10px;
     box-shadow: 10px 10px 20px #00000033;
-    width: 30%;
+    /* width: 30%; */
     height: 300px;
     background-image: linear-gradient(to top right,
             #91defe,
