@@ -78,17 +78,17 @@ select {
 }
 
 @media (max-width:800px) {
-    .about-lisa {
+    /* .about-lisa {
         flex-direction: column-reverse;
         align-items: center;
-    }
+    } */
 
-    .sidebar {
+    /* .sidebar {
         width: 40%;
-    }
+    } */
 
     .storytime {
-        width: 85%;
+        width: 95%;
         margin-top: 30px;
     }
 }
